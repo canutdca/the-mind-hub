@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    list-style: none;
+    margin: 0;
+}
+
+.productCard {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: translateY(-4px);
+    }
+}
+
+.productInfo {
+    padding: 1.5rem;
+}
+
+.productName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+}
+
+.productDescription {
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.productPrice {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #3b82f6;
+} 

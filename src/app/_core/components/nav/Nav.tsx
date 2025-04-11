@@ -16,6 +16,11 @@ export function Nav() {
 						Profile
 					</Link>
 				</li>
+				<li>
+					<Link className={styles.link} href={ROUTES.PRODUCTS}>
+						Products
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	)
