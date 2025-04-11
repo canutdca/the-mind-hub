@@ -1,3 +1,3 @@
-export default function Home() {
-	return <div>Hello world!</div>
-}
+import Home from './home/page'
+
+export default Home

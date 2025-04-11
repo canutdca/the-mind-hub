@@ -1,0 +1,28 @@
+.listItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #f8f9fa;
+	color: #242424;
+	border-radius: 4px;
+	margin-bottom: 0.5rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.deleteButton {
+	padding: 0.25rem 0.5rem;
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+
+	&:hover {
+		background-color: #c82333;
+	}
+} 

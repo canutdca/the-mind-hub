@@ -8,7 +8,7 @@ export function Nav() {
 			<ul className={styles.list}>
 				<li>
 					<Link className={styles.link} href={ROUTES.HOME}>
-						Home
+						Todo List
 					</Link>
 				</li>
 			</ul>
