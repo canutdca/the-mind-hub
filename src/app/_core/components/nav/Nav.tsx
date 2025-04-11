@@ -11,6 +11,11 @@ export function Nav() {
 						Todo List
 					</Link>
 				</li>
+				<li>
+					<Link className={styles.link} href={ROUTES.PROFILE}>
+						Profile
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	)
